@@ -1,4 +1,4 @@
-1261982268256908
+1263597167621517
 AVR-KiCAD-Lib-Battery-Holders
 BK-912
 
@@ -972,6 +972,13 @@ TVS0500DRVR
 0
 9
 7
+AVR-KiCAD-Lib-Holes_Fasteners
+2.54mm_PLT_Hole
+
+
+0
+1
+1
 AVR-KiCAD-Lib-Holes_Fasteners
 M2_HOLE
 
