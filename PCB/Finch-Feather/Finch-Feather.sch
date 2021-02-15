@@ -154,41 +154,39 @@ Wire Wire Line
 $Comp
 L AVR-KiCAD-Lib-ICs:USBLC6-2P6 U1
 U 1 1 6037F1E0
-P 4150 6650
-F 0 "U1" H 4150 6600 50  0000 C CNN
-F 1 "USBLC6-2P6" H 4200 6750 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-ICs:SOT50P160X60-6N" H 3950 6550 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 6650 50  0001 C CNN
-F 4 "0.57000" H 4250 6900 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.24640" H 4350 7000 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 4450 7100 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 4550 7200 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 4650 7300 50  0001 C CNN "Cost QTY: 10000"
-F 9 "STMicroelectronics" H 4750 7400 50  0001 C CNN "MFR"
-F 10 "USBLC6-2P6" H 4850 7500 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 4950 7600 50  0001 C CNN "Vendor"
-F 12 "497-5026-2-ND" H 5050 7700 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 5150 7800 50  0001 C CNN "Designer"
-F 14 "*" H 5250 7900 50  0001 C CNN "Height"
-F 15 "2/13/2021" H 6350 9000 50  0001 C CNN "Date Created"
-F 16 "2/13/2021" H 5350 8000 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 5450 8100 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 5550 8200 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 5650 8300 50  0001 C CNN "Mounting"
-F 20 "6" H 5750 8400 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 5850 8500 50  0001 C CNN "Status"
-F 22 "*" H 5950 8600 50  0001 C CNN "Tolerance"
-F 23 "ESD Supressor USB" H 6050 8700 50  0001 C CNN "Type"
-F 24 "17V Clamping" H 6150 8800 50  0001 C CNN "Voltage"
-F 25 "SOT666" H 6250 8950 50  0001 C CNN "Package"
-F 26 "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666" H 6550 9250 50  0001 C CNN "Description"
-F 27 "USBLC6-2P6" H 4400 5900 50  0000 C CNN "_Value_"
-F 28 "*" H 6550 9250 50  0001 C CNN "Management_ID"
-	1    4150 6650
-	1    0    0    -1  
+P 4150 7450
+F 0 "U1" H 4150 7400 50  0000 C CNN
+F 1 "USBLC6-2P6" H 4200 7550 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-ICs:SOT50P160X60-6N" H 3950 7350 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 4050 7450 50  0001 C CNN
+F 4 "0.57000" H 4250 7700 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.24640" H 4350 7800 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 4450 7900 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 4550 8000 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 4650 8100 50  0001 C CNN "Cost QTY: 10000"
+F 9 "STMicroelectronics" H 4750 8200 50  0001 C CNN "MFR"
+F 10 "USBLC6-2P6" H 4850 8300 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4950 8400 50  0001 C CNN "Vendor"
+F 12 "497-5026-2-ND" H 5050 8500 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 5150 8600 50  0001 C CNN "Designer"
+F 14 "*" H 5250 8700 50  0001 C CNN "Height"
+F 15 "2/13/2021" H 6350 9800 50  0001 C CNN "Date Created"
+F 16 "2/13/2021" H 5350 8800 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5450 8900 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5550 9000 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5650 9100 50  0001 C CNN "Mounting"
+F 20 "6" H 5750 9200 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5850 9300 50  0001 C CNN "Status"
+F 22 "*" H 5950 9400 50  0001 C CNN "Tolerance"
+F 23 "ESD Supressor USB" H 6050 9500 50  0001 C CNN "Type"
+F 24 "17V Clamping" H 6150 9600 50  0001 C CNN "Voltage"
+F 25 "SOT666" H 6250 9750 50  0001 C CNN "Package"
+F 26 "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666" H 6550 10050 50  0001 C CNN "Description"
+F 27 "USBLC6-2P6" H 4400 6700 50  0000 C CNN "_Value_"
+F 28 "*" H 6550 10050 50  0001 C CNN "Management_ID"
+	1    4150 7450
+	1    0    0    1   
 $EndComp
-Text Label 4850 6850 0    50   ~ 0
-USB_D-
 Text Label 4850 7250 0    50   ~ 0
 USB_D+
 Wire Wire Line
@@ -1855,10 +1853,10 @@ F 28 "*" H 12800 3500 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0126
 U 1 1 6090DBAB
 P 6250 2000
-F 0 "#PWR?" H 6250 1850 50  0001 C CNN
+F 0 "#PWR0126" H 6250 1850 50  0001 C CNN
 F 1 "+3V3" H 6265 2173 50  0000 C CNN
 F 2 "" H 6250 2000 50  0001 C CNN
 F 3 "" H 6250 2000 50  0001 C CNN
@@ -1874,10 +1872,10 @@ NRST
 Wire Wire Line
 	6850 2200 6500 2200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 6091CA7C
 P 6250 2500
-F 0 "#PWR?" H 6250 2250 50  0001 C CNN
+F 0 "#PWR0127" H 6250 2250 50  0001 C CNN
 F 1 "GND" H 6255 2327 50  0000 C CNN
 F 2 "" H 6250 2500 50  0001 C CNN
 F 3 "" H 6250 2500 50  0001 C CNN
@@ -1893,14 +1891,184 @@ Wire Wire Line
 Wire Wire Line
 	1650 3150 850  3150
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0128
 U 1 1 6092DB90
 P 850 3150
-F 0 "#PWR?" H 850 3000 50  0001 C CNN
+F 0 "#PWR0128" H 850 3000 50  0001 C CNN
 F 1 "+5V" H 865 3323 50  0000 C CNN
 F 2 "" H 850 3150 50  0001 C CNN
 F 3 "" H 850 3150 50  0001 C CNN
 	1    850  3150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4150 3650 3600 3650
+Text Label 3750 3650 0    50   ~ 0
+PB10
+Wire Wire Line
+	6850 3700 6400 3700
+Text Label 6500 3700 0    50   ~ 0
+PB10
+Wire Wire Line
+	4150 3750 3600 3750
+Text Label 3750 3750 0    50   ~ 0
+PB11
+Wire Wire Line
+	6850 3600 6400 3600
+Text Label 6500 3600 0    50   ~ 0
+PB11
+Text Label 5750 1450 0    50   ~ 0
+PC5
+Wire Wire Line
+	5550 1450 6100 1450
+Text Label 6500 3500 0    50   ~ 0
+PC5
+Wire Wire Line
+	6400 3500 6850 3500
+Wire Wire Line
+	5550 5050 6250 5050
+Text Label 5800 5050 0    50   ~ 0
+PE4
+Wire Wire Line
+	6400 3400 6850 3400
+Text Label 6500 3400 0    50   ~ 0
+PE4
+Wire Wire Line
+	4150 3850 3600 3850
+Text Label 3750 3850 0    50   ~ 0
+PB12
+Wire Wire Line
+	6850 3300 6400 3300
+Text Label 6500 3300 0    50   ~ 0
+PB12
+Wire Wire Line
+	6100 2350 5550 2350
+Text Label 5700 2350 0    50   ~ 0
+PC13
+Wire Wire Line
+	6850 3200 6400 3200
+Text Label 6500 3200 0    50   ~ 0
+PC13
+Wire Wire Line
+	4150 3150 3600 3150
+Text Label 3750 3150 0    50   ~ 0
+PB6
+Wire Wire Line
+	6850 3100 6400 3100
+Text Label 6500 3100 0    50   ~ 0
+PB6
+Wire Wire Line
+	4150 4150 3600 4150
+Text Label 3750 4150 0    50   ~ 0
+PB15
+Wire Wire Line
+	6850 3000 6400 3000
+Text Label 6500 3000 0    50   ~ 0
+PB15
+Wire Wire Line
+	4150 4050 3600 4050
+Text Label 3750 4050 0    50   ~ 0
+PB14
+Wire Wire Line
+	6850 2900 6400 2900
+Text Label 6500 2900 0    50   ~ 0
+PB14
+Wire Wire Line
+	5550 1550 6100 1550
+Text Label 5750 1550 0    50   ~ 0
+PC6
+Wire Wire Line
+	6400 2800 6850 2800
+Text Label 6500 2800 0    50   ~ 0
+PC6
+Wire Wire Line
+	3600 3950 4150 3950
+Text Label 3800 3950 0    50   ~ 0
+PB13
+Wire Wire Line
+	6400 2700 6850 2700
+Text Label 6500 2700 0    50   ~ 0
+PB13
+Wire Wire Line
+	5550 2650 5850 2650
+Text Label 5650 2650 0    50   ~ 0
+PD1
+Wire Wire Line
+	6400 2600 6850 2600
+Text Label 6500 2600 0    50   ~ 0
+PD1
+Wire Wire Line
+	4150 2950 3550 2950
+Text Label 3800 2950 0    50   ~ 0
+PB4
+Wire Wire Line
+	1650 3250 1050 3250
+Text Label 1300 3250 0    50   ~ 0
+PB4
+Wire Wire Line
+	4150 3050 3600 3050
+Text Label 3800 3050 0    50   ~ 0
+PB5
+Wire Wire Line
+	1650 3350 1100 3350
+Text Label 1300 3350 0    50   ~ 0
+PB5
+Wire Wire Line
+	4150 3250 3600 3250
+Text Label 3750 3250 0    50   ~ 0
+PB7
+Wire Wire Line
+	1650 3450 1100 3450
+Text Label 1250 3450 0    50   ~ 0
+PB7
+Wire Wire Line
+	5550 3850 6000 3850
+Text Label 5700 3850 0    50   ~ 0
+PD12
+Wire Wire Line
+	1200 3550 1650 3550
+Text Label 1350 3550 0    50   ~ 0
+PD12
+Wire Wire Line
+	5550 3950 6000 3950
+Text Label 5700 3950 0    50   ~ 0
+PD13
+Wire Wire Line
+	1200 3650 1650 3650
+Text Label 1350 3650 0    50   ~ 0
+PD13
+Wire Wire Line
+	5550 4750 6050 4750
+Text Label 5750 4750 0    50   ~ 0
+PE1
+Wire Wire Line
+	1150 3750 1650 3750
+Text Label 1350 3750 0    50   ~ 0
+PE1
+Wire Wire Line
+	5550 4050 6000 4050
+Text Label 5700 4050 0    50   ~ 0
+PD14
+Wire Wire Line
+	1200 3850 1650 3850
+Text Label 1350 3850 0    50   ~ 0
+PD14
+Wire Wire Line
+	4150 4950 3800 4950
+Text Label 3900 4950 0    50   ~ 0
+PH1
+Wire Wire Line
+	4150 4850 3800 4850
+Text Label 3900 4850 0    50   ~ 0
+PH0
+Wire Wire Line
+	1300 3950 1650 3950
+Text Label 1550 3950 2    50   ~ 0
+PH1
+Wire Wire Line
+	1300 4050 1650 4050
+Text Label 1550 4050 2    50   ~ 0
+PH0
+Text Label 4850 6850 0    50   ~ 0
+USB_D-
 $EndSCHEMATC
