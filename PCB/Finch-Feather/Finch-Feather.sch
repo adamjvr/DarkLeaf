@@ -1571,42 +1571,6 @@ F 28 "*" H 12800 3750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole H3
-U 1 1 608C5DF9
-P 10400 900
-F 0 "H3" H 10628 946 50  0000 L CNN
-F 1 "2.54mm_PLT_Hole" H 10450 1100 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole" H 10400 900 50  0001 C CNN
-F 3 "" H 10400 900 50  0001 C CNN
-F 4 "*" H 10500 1150 50  0001 C CNN "Cost QTY: 1"
-F 5 "*" H 10600 1250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 10700 1350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 10800 1450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 10900 1550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "*" H 11000 1650 50  0001 C CNN "MFR"
-F 10 "*" H 11100 1750 50  0001 C CNN "MFR#"
-F 11 "*" H 11200 1850 50  0001 C CNN "Vendor"
-F 12 "*" H 11300 1950 50  0001 C CNN "Vendor #"
-F 13 "*" H 11400 2050 50  0001 C CNN "Designer"
-F 14 "*" H 11500 2150 50  0001 C CNN "Height"
-F 15 "*" H 12600 3250 50  0001 C CNN "Date Created"
-F 16 "*" H 11600 2250 50  0001 C CNN "Date Modified"
-F 17 "*" H 11700 2350 50  0001 C CNN "Lead-Free ?"
-F 18 "*" H 11800 2450 50  0001 C CNN "RoHS Levels"
-F 19 "*" H 11900 2550 50  0001 C CNN "Mounting"
-F 20 "*" H 12000 2650 50  0001 C CNN "Pin Count #"
-F 21 "*" H 12100 2750 50  0001 C CNN "Status"
-F 22 "*" H 12200 2850 50  0001 C CNN "Tolerance"
-F 23 "*" H 12300 2950 50  0001 C CNN "Type"
-F 24 "*" H 12400 3050 50  0001 C CNN "Voltage"
-F 25 "*" H 12500 3200 50  0001 C CNN "Package"
-F 26 "2.54mm Hole" H 10628 855 50  0000 L CNN "_Value_"
-F 27 "*" H 12800 3500 50  0001 C CNN "Management_ID"
-F 28 "*" H 12800 3500 50  0001 C CNN "Description"
-	1    10400 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0126
 U 1 1 6090DBAB
 P 6250 2000
@@ -1649,96 +1613,88 @@ Wire Wire Line
 Text Label 3750 3650 0    50   ~ 0
 PB10
 Wire Wire Line
-	6850 3700 6400 3700
-Text Label 6500 3700 0    50   ~ 0
+	8100 3650 7650 3650
+Text Label 7750 3650 0    50   ~ 0
 PB10
 Wire Wire Line
 	4150 3750 3600 3750
 Text Label 3750 3750 0    50   ~ 0
 PB11
 Wire Wire Line
-	6850 3600 6400 3600
-Text Label 6500 3600 0    50   ~ 0
+	8100 3550 7650 3550
+Text Label 7750 3550 0    50   ~ 0
 PB11
-Text Label 5750 1450 0    50   ~ 0
-PC5
-Wire Wire Line
-	5550 1450 6100 1450
-Text Label 6500 3500 0    50   ~ 0
-PC5
-Wire Wire Line
-	6400 3500 6850 3500
 Wire Wire Line
 	5550 5050 6050 5050
 Text Label 5800 5050 0    50   ~ 0
 PE4
 Wire Wire Line
-	6400 3400 6850 3400
-Text Label 6500 3400 0    50   ~ 0
+	6400 3700 6850 3700
+Text Label 6500 3700 0    50   ~ 0
 PE4
 Wire Wire Line
 	4150 3850 3600 3850
 Text Label 3750 3850 0    50   ~ 0
 PB12
 Wire Wire Line
-	6850 3300 6400 3300
-Text Label 6500 3300 0    50   ~ 0
+	6850 3600 6400 3600
+Text Label 6500 3600 0    50   ~ 0
 PB12
 Wire Wire Line
 	6100 2350 5550 2350
 Text Label 5700 2350 0    50   ~ 0
 PC13
 Wire Wire Line
-	6850 3200 6400 3200
-Text Label 6500 3200 0    50   ~ 0
+	6850 3500 6400 3500
+Text Label 6500 3500 0    50   ~ 0
 PC13
 Wire Wire Line
 	4150 3150 3600 3150
 Text Label 3700 3150 0    50   ~ 0
 PB6
 Wire Wire Line
-	6850 3100 6400 3100
-Text Label 6500 3100 0    50   ~ 0
+	6850 3400 6400 3400
+Text Label 6500 3400 0    50   ~ 0
 PB6
 Wire Wire Line
 	4150 4150 3600 4150
 Text Label 3750 4150 0    50   ~ 0
 PB15
 Wire Wire Line
-	6850 3000 6400 3000
-Text Label 6500 3000 0    50   ~ 0
+	6850 3300 6400 3300
+Text Label 6500 3300 0    50   ~ 0
 PB15
 Wire Wire Line
 	4150 4050 3600 4050
 Text Label 3750 4050 0    50   ~ 0
 PB14
 Wire Wire Line
-	6850 2900 6400 2900
-Text Label 6500 2900 0    50   ~ 0
+	6850 3200 6400 3200
+Text Label 6500 3200 0    50   ~ 0
 PB14
 Wire Wire Line
 	5550 1550 6100 1550
 Text Label 5750 1550 0    50   ~ 0
 PC6
 Wire Wire Line
-	6400 2800 6850 2800
-Text Label 6500 2800 0    50   ~ 0
+	6400 3100 6850 3100
+Text Label 6500 3100 0    50   ~ 0
 PC6
 Wire Wire Line
 	3600 3950 4150 3950
 Text Label 3800 3950 0    50   ~ 0
 PB13
 Wire Wire Line
-	6400 2700 6850 2700
-Text Label 6500 2700 0    50   ~ 0
+	6400 3000 6850 3000
+Text Label 6500 3000 0    50   ~ 0
 PB13
 Wire Wire Line
 	5550 2650 5850 2650
 Text Label 5650 2650 0    50   ~ 0
 PD1
 Wire Wire Line
-	6400 2600 6850 2600
-Text Label 6500 2600 0    50   ~ 0
+	6400 2900 6850 2900
+Text Label 6500 2900 0    50   ~ 0
 PD1
 Wire Wire Line
 	4150 2950 3600 2950
@@ -2273,4 +2229,28 @@ Wire Wire Line
 	9200 5450 9100 5450
 Wire Wire Line
 	9100 5450 9100 6250
+Wire Wire Line
+	5550 3350 5950 3350
+Text Label 5650 3350 0    50   ~ 0
+PD7
+Wire Wire Line
+	6400 2600 6850 2600
+Text Label 6500 2600 0    50   ~ 0
+PD7
+Wire Wire Line
+	5550 2850 5950 2850
+Text Label 5650 2850 0    50   ~ 0
+PD2
+Wire Wire Line
+	6400 2700 6850 2700
+Text Label 6500 2700 0    50   ~ 0
+PD2
+Wire Wire Line
+	5550 1950 5950 1950
+Text Label 5650 1950 0    50   ~ 0
+PC9
+Wire Wire Line
+	6400 2800 6850 2800
+Text Label 6500 2800 0    50   ~ 0
+PC9
 $EndSCHEMATC
