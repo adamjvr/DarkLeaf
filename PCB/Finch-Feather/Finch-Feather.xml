@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\adam\Documents\GitHub\Finch-Feather\PCB\Finch-Feather\Finch-Feather.sch</source>
+    <date>3/14/2021 8:46:25 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Finch-Feather.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="L1">
+      <value>MI0603K300R-10</value>
+      <footprint>AVR-KiCAD-Lib-Inductors:MI0603K300R-10</footprint>
+      <datasheet>https://www.laird.com/sites/default/files/2018-11/Catalog_EMI%20FILTERING%20RF%200717.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.16000</field>
+        <field name="Cost QTY: 1000">0.04313</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">6/16/2020</field>
+        <field name="Date Modified">6/16/2020</field>
+        <field name="Description">30 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1.5A 90mOhm</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.95mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Laird-Signal Integrity Products</field>
+        <field name="MFR#">MI0603K300R-10</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Ferrite Bead</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">240-2373-1-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">MI0603K300R-10</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Inductors" part="MI0603K300R-10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60528C77</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>USBLC6-2P6</value>
+      <footprint>AVR-KiCAD-Lib-ICs:SOT50P160X60-6N</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.57000</field>
+        <field name="Cost QTY: 1000">0.24640</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Description">17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">*</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MFR#">USBLC6-2P6</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">SOT666</field>
+        <field name="Pin Count #">6</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">ESD Supressor USB</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">497-5026-2-ND</field>
+        <field name="Voltage">17V Clamping</field>
+        <field name="_Value_">USBLC6-2P6</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-ICs" part="USBLC6-2P6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6037F1E0</tstamp>
+    </comp>
+    <comp ref="T3">
+      <value>DX07S016JA1R1500</value>
+      <footprint>AVR-KiCAD-Lib-Connectors:JAE_DX07S016JA1R1500</footprint>
+      <datasheet>https://www.jae.com/direct/topics/topics_file_download/?topics_id=91780&amp;ext_no=04&amp;_lang=en&amp;v=2020041313384666992409</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">1.51000</field>
+        <field name="Cost QTY: 1000">0.81200</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/10/2021</field>
+        <field name="Date Modified">2/10/2021</field>
+        <field name="Description">USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">3.2mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">JAE Electronics</field>
+        <field name="MFR#">DX07S016JA1R1500</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">Throughhole &amp; SMT</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">16</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">USB-C</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">670-DX07S016JA1R1500TR-ND</field>
+        <field name="Voltage">20V</field>
+        <field name="_Value_">DX07S016JA1R1500</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Connectors" part="DX07S016JA1R1500" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6029772E</tstamp>
+    </comp>
+    <comp ref="T4">
+      <value>TSW-116-07-L-S</value>
+      <footprint>AVR-KiCAD-Lib-Connectors:SAMTEC-TSW-116-07-X-S</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/tsw_th.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">1.38000</field>
+        <field name="Cost QTY: 1000">0.76500</field>
+        <field name="Cost QTY: 10000">0.66300</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.67830</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Description">Connector Header Through Hole 16 position 0.100" (2.54mm)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">11.8mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Samtec Inc.</field>
+        <field name="MFR#">TSW-116-07-L-S</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">ThroughHole</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">16</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Pin Header</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">TSW-116-07-L-S-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">TSW-116-07-L-S</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Connectors" part="TSW-116-07-L-S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604016E6</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>TSW-112-07-G-S</value>
+      <footprint>AVR-KiCAD-Lib-Connectors:SAMTEC-TSW-112-07-X-S</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/tsw_th.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">1.29000</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Description">Connector Header Through Hole 12 position 0.100" (2.54mm)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">11.8mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Samtec Inc.</field>
+        <field name="MFR#">TSW-112-07-G-S</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">ThroughHole</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">12</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Pin Header</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">SAM1029-12-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">TSW-112-07-G-S</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Connectors" part="TSW-112-07-G-S" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F2AFE</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>STM32WB5MMGH6TR</value>
+      <footprint>AVR-KiCAD-Lib-Modules:STM32WB5MMGH6TR</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">12.98000</field>
+        <field name="Cost QTY: 1000">9.01250</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/8/2021</field>
+        <field name="Date Modified">2/8/2021</field>
+        <field name="Description">802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.4GHz Integrated, Chip Surface Mount</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.382mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MFR#">STM32WB5MMGH6TR</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">86</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">RF and MCU Integrated Module</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">497-STM32WB5MMGH6TR-ND</field>
+        <field name="Voltage">1.71-3.6V</field>
+        <field name="_Value_">STM32WB5MMGH6TR</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Modules" part="STM32WB5MMGH6TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602449D1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>RC0402FR-0710KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">10K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60269408</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6027F94B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>B3U-1000P</value>
+      <footprint>AVR-KiCAD-Lib-Mech-Switches:B3U-1000P</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.98000</field>
+        <field name="Cost QTY: 1000">0.59822</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">6/15/2020</field>
+        <field name="Date Modified">6/15/2020</field>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.6mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Omron Electronics Inc-EMC Div</field>
+        <field name="MFR#">B3U-1000P</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">Proprietary</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Switch</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">SW1020CT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">B3U-1000P</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Mech-Switches" part="B3U-1000P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6027BC19</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>RC0402FR-0710KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">10K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604BEFB5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>RC0402FR-0710KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">10K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049D84D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RC0402FR-0710KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">10K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049C656</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RC0402FR-0710KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">10K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60494B5E</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>20021121-00010C4LF</value>
+      <footprint>AVR-KiCAD-Lib-Connectors:20021121-00010C4LF</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.87000</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">6/16/2020</field>
+        <field name="Date Modified">6/16/2020</field>
+        <field name="Description">CONN HEADER SMD 10POS 1.27MM</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">5.5mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Amphenol ICC (FCI)</field>
+        <field name="MFR#">20021121-00010C4LF</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">10</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">SMT Pin Header</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">609-3695-1-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">20021121-00010C4LF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Connectors" part="20021121-00010C4LF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025B214</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604152F5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C0603C475K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Capacitors:C0603</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.17000</field>
+        <field name="Cost QTY: 1000">0.03280</field>
+        <field name="Cost QTY: 10000">0.02260</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.02430</field>
+        <field name="Date Created">12/6/2019</field>
+        <field name="Date Modified">12/6/2019</field>
+        <field name="Description">4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.9mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0603C475K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3482-1-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">4.7uF X5R</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0603C475K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602BF400</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTST-C194TBKT</value>
+      <footprint>AVR-KiCAD-Lib-Diodes:LED0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.42000</field>
+        <field name="Cost QTY: 1000">0.07797</field>
+        <field name="Cost QTY: 10000">0.05424</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.06102</field>
+        <field name="Date Created">3/1/2020</field>
+        <field name="Date Modified">3/1/2020</field>
+        <field name="Description">Blue 468nm LED Indication - Discrete 3.3V 0603 (1608 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.45mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Lite-On Inc.</field>
+        <field name="MFR#">LTST-C194TBKT</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Blue LED Colorless</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">160-1837-2-ND</field>
+        <field name="Voltage">3.3V</field>
+        <field name="_Value_">Blue LED</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Diodes" part="LTST-C194TBKT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B1946</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>RC0603FR-07470RL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0603</footprint>
+      <fields>
+        <field name="Cost QTY: 1">0.100</field>
+        <field name="Cost QTY: 1000">0.00476</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00418</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">4/23/2019</field>
+        <field name="Date Modified">4/23/2019</field>
+        <field name="Description">RES SMD 470 OHM 1% 1/10W 0603</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0603FR-07470RL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">SMT Chip Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-470HRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">470r</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0603FR-07470RL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AEB14</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RC0402FR-072KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 10000">0.00163</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Date Created">7/6/2020</field>
+        <field name="Date Modified">7/6/2020</field>
+        <field name="Description">2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-072KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-2KLRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">2K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-072KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A9AFF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C0603C475K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Capacitors:C0603</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.17000</field>
+        <field name="Cost QTY: 1000">0.03280</field>
+        <field name="Cost QTY: 10000">0.02260</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.02430</field>
+        <field name="Date Created">12/6/2019</field>
+        <field name="Date Modified">12/6/2019</field>
+        <field name="Description">4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.9mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0603C475K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3482-1-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">4.7uF X5R</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0603C475K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A4DB2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E8952</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E7A8B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E65D0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E0253</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B6E6A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>2.54mm_PLT_Hole</value>
+      <footprint>AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole</footprint>
+      <fields>
+        <field name="Cost QTY: 1">*</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">*</field>
+        <field name="Date Modified">*</field>
+        <field name="Description">*</field>
+        <field name="Designer">*</field>
+        <field name="Height">*</field>
+        <field name="Lead-Free ?">*</field>
+        <field name="MFR">*</field>
+        <field name="MFR#">*</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">*</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">*</field>
+        <field name="RoHS Levels">*</field>
+        <field name="Status">*</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">*</field>
+        <field name="Vendor">*</field>
+        <field name="Vendor #">*</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">2.54mm Hole</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Holes_Fasteners" part="2.54mm_PLT_Hole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1076</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>2.54mm_PLT_Hole</value>
+      <footprint>AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole</footprint>
+      <fields>
+        <field name="Cost QTY: 1">*</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">*</field>
+        <field name="Date Modified">*</field>
+        <field name="Description">*</field>
+        <field name="Designer">*</field>
+        <field name="Height">*</field>
+        <field name="Lead-Free ?">*</field>
+        <field name="MFR">*</field>
+        <field name="MFR#">*</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">*</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">*</field>
+        <field name="RoHS Levels">*</field>
+        <field name="Status">*</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">*</field>
+        <field name="Vendor">*</field>
+        <field name="Vendor #">*</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">2.54mm Hole</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Holes_Fasteners" part="2.54mm_PLT_Hole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C3B0F</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>2.54mm_PLT_Hole</value>
+      <footprint>AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole</footprint>
+      <fields>
+        <field name="Cost QTY: 1">*</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">*</field>
+        <field name="Date Modified">*</field>
+        <field name="Description">*</field>
+        <field name="Designer">*</field>
+        <field name="Height">*</field>
+        <field name="Lead-Free ?">*</field>
+        <field name="MFR">*</field>
+        <field name="MFR#">*</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">*</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">*</field>
+        <field name="RoHS Levels">*</field>
+        <field name="Status">*</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">*</field>
+        <field name="Vendor">*</field>
+        <field name="Vendor #">*</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">2.54mm Hole</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Holes_Fasteners" part="2.54mm_PLT_Hole" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C46AE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLV75533PDBVR</value>
+      <footprint>AVR-KiCAD-Lib-ICs:TLV75533PDBVR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv755p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1613655963783</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.42000</field>
+        <field name="Cost QTY: 1000">0.14787</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/18/2021</field>
+        <field name="Date Modified">2/18/2021</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output  500mA SOT-23-5</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">*</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MFR#">TLV75533PDBVR</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">5</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">LDO</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">296-50411-2-ND</field>
+        <field name="Voltage">3.3V 500MA</field>
+        <field name="_Value_">TLV75533PDBVR</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-ICs" part="TLV75533PDBVR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6039F940</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C0402C104K9PACTU</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0402</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Voltage">6.3V</field>
+        <field name="_Value_">0.1uF</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603D939B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MBR0540T1G</value>
+      <footprint>AVR-KiCAD-Lib-Diodes:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.37000</field>
+        <field name="Cost QTY: 1000">0.07191</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">7/31/2020</field>
+        <field name="Date Modified">7/31/2020</field>
+        <field name="Description">Diode Schottky 40V 500mA Surface Mount SOD-123</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.17mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MFR#">MBR0540T1G</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">SOD-123</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">TVS Diode</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">MBR0540T1GOSTR-ND</field>
+        <field name="Voltage">40V</field>
+        <field name="_Value_">MBR0540T1G</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Diodes" part="MBR0540T1G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604D6FB9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RC0603FR-07100KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0603</footprint>
+      <fields>
+        <field name="Cost QTY: 1">0.10</field>
+        <field name="Cost QTY: 1000">0.00476</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00418</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">4/23/2019</field>
+        <field name="Date Modified">4/23/2019</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0603</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0603FR-07100KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">SMT Chip Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-100KHRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">100K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0603FR-07100KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6046BD15</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP3125L-7</value>
+      <footprint>growbox-KiCAD-Transistors:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3125L.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.46000</field>
+        <field name="Cost QTY: 1000">0.09759</field>
+        <field name="Cost QTY: 10000">0.07624</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.08324</field>
+        <field name="Date Created">3/1/2020</field>
+        <field name="Date Modified">3/1/2020</field>
+        <field name="Description">P-Channel 30V 2.5A (Ta) 650mW (Ta) Surface Mount SOT-23</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.10mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Diodes Incorporated</field>
+        <field name="MFR#">DMP3125L-7</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">SOT23</field>
+        <field name="Pin Count #">3</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">P-Channel MOSFET</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">DMP3125L-7DICT-ND</field>
+        <field name="Voltage">20V</field>
+        <field name="_Value_">DMP3125L-7</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Transistors" part="DMP3125L-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60438ECF</tstamp>
+    </comp>
+    <comp ref="T5">
+      <value>S2B-PH-SM4-TB(LF)(SN)</value>
+      <footprint>AVR-KiCAD-Lib-Connectors:B2B-PH-SM4-TB(LF)(SN)</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.53000</field>
+        <field name="Cost QTY: 1000">0.27353</field>
+        <field name="Cost QTY: 10000">0.22380</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.24037</field>
+        <field name="Date Created">2/19/2021</field>
+        <field name="Date Modified">2/19/2021</field>
+        <field name="Description">Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">5.51mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">JST Sales America Inc.</field>
+        <field name="MFR#">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">*</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">JST Connector</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">455-1749-2-ND</field>
+        <field name="Voltage">94V</field>
+        <field name="_Value_">S2B-PH-SM4-TB(LF)(SN)</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Connectors" part="S2B-PH-SM4-TB(LF)(SN)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6072DFBC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>RC0603FR-07100KL</value>
+      <footprint>AVR-KiCAD-Lib-Resistors:R0603</footprint>
+      <fields>
+        <field name="Cost QTY: 1">0.10</field>
+        <field name="Cost QTY: 1000">0.00476</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">0.00418</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">4/23/2019</field>
+        <field name="Date Modified">4/23/2019</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0603</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0603FR-07100KL</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">0603</field>
+        <field name="Pin Count #">2</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">SMT Chip Resistor</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-100KHRCT-ND</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">100K</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-Resistors" part="RC0603FR-07100KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6083EF4E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831T-2ACI_OT</value>
+      <footprint>AVR-KiCAD-Lib-ICs:SOT-23-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</datasheet>
+      <fields>
+        <field name="Cost QTY: 1">0.59</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Date Created">2/20/2021</field>
+        <field name="Date Modified">2/20/2021</field>
+        <field name="Description">Charger IC Lithium Ion/Polymer SOT-23-5</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.3mm</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MFR#">MCP73831T-2ACI/OT</field>
+        <field name="Management_ID">*</field>
+        <field name="Mounting">SMT</field>
+        <field name="Package">SOT23-5</field>
+        <field name="Pin Count #">5</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">LiPo charger</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor #">579-MCP73831T-2ACIOT</field>
+        <field name="Voltage">*</field>
+        <field name="_Value_">MCP73831T-2ACI/OT</field>
+      </fields>
+      <libsource lib="AVR-KiCAD-Lib-ICs" part="MCP73831T-2ACI_OT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603521AA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AVR-KiCAD-Lib-Capacitors" part="C0402C104K9PACTU">
+      <docs>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0402C104K9PACTU</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Resistors:R0402</field>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.01139</field>
+        <field name="Cost QTY: 2500">0.01035</field>
+        <field name="Cost QTY: 5000">0.00952</field>
+        <field name="Cost QTY: 10000">0.00756</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0402C104K9PACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3026-6-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Date Created">12/7/2019</field>
+        <field name="Date Modified">12/7/2019</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Voltage">6.3V</field>
+        <field name="Package">0402</field>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="_Value_">0.1uF</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Capacitors" part="C0603C475K9PACTU">
+      <docs>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0603C475K9PACTU</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Capacitors:C0603</field>
+        <field name="Cost QTY: 1">0.17000</field>
+        <field name="Cost QTY: 1000">0.03280</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.02430</field>
+        <field name="Cost QTY: 10000">0.02260</field>
+        <field name="MFR">KEMET</field>
+        <field name="MFR#">C0603C475K9PACTU</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">399-3482-1-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.9mm</field>
+        <field name="Date Created">12/6/2019</field>
+        <field name="Date Modified">12/6/2019</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">10%</field>
+        <field name="Type">Ceramic Cap</field>
+        <field name="Voltage">6.3V</field>
+        <field name="Package">0603</field>
+        <field name="Description">4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)</field>
+        <field name="_Value_">4.7uF X5R</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Connectors" part="20021121-00010C4LF">
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">20021121-00010C4LF</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Connectors:20021121-00010C4LF</field>
+        <field name="Cost QTY: 1">0.87000</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Amphenol ICC (FCI)</field>
+        <field name="MFR#">20021121-00010C4LF</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">609-3695-1-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">5.5mm</field>
+        <field name="Date Created">6/16/2020</field>
+        <field name="Date Modified">6/16/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">10</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">SMT Pin Header</field>
+        <field name="Voltage">*</field>
+        <field name="Package">*</field>
+        <field name="Description">CONN HEADER SMD 10POS 1.27MM</field>
+        <field name="_Value_">20021121-00010C4LF</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Connectors" part="DX07S016JA1R1500">
+      <docs>https://www.jae.com/direct/topics/topics_file_download/?topics_id=91780&amp;ext_no=04&amp;_lang=en&amp;v=2020041313384666992409</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">DX07S016JA1R1500</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Connectors:JAE_DX07S016JA1R1500</field>
+        <field name="Cost QTY: 1">1.51000</field>
+        <field name="Cost QTY: 1000">0.81200</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">JAE Electronics</field>
+        <field name="MFR#">DX07S016JA1R1500</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">670-DX07S016JA1R1500TR-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">3.2mm</field>
+        <field name="Date Created">2/10/2021</field>
+        <field name="Date Modified">2/10/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">Throughhole &amp; SMT</field>
+        <field name="Pin Count #">16</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">USB-C</field>
+        <field name="Voltage">20V</field>
+        <field name="Package">*</field>
+        <field name="Description">USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole</field>
+        <field name="_Value_">DX07S016JA1R1500</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VBUS" type="power_in"/>
+        <pin num="3" name="CC1" type="passive"/>
+        <pin num="4" name="SBU2" type="passive"/>
+        <pin num="5" name="D-" type="passive"/>
+        <pin num="6" name="D+" type="passive"/>
+        <pin num="7" name="D+" type="passive"/>
+        <pin num="8" name="D-" type="passive"/>
+        <pin num="9" name="CC2" type="passive"/>
+        <pin num="10" name="SBU1" type="passive"/>
+        <pin num="11" name="VBUS" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+        <pin num="S5" name="SHIELD" type="passive"/>
+        <pin num="S6" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Connectors" part="S2B-PH-SM4-TB(LF)(SN)">
+      <docs>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Connectors:B2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Cost QTY: 1">0.53000</field>
+        <field name="Cost QTY: 1000">0.27353</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.24037</field>
+        <field name="Cost QTY: 10000">0.22380</field>
+        <field name="MFR">JST Sales America Inc.</field>
+        <field name="MFR#">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">455-1749-2-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">5.51mm</field>
+        <field name="Date Created">2/19/2021</field>
+        <field name="Date Modified">2/19/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">JST Connector</field>
+        <field name="Voltage">94V</field>
+        <field name="Package">*</field>
+        <field name="Description">Connector Header Surface Mount, Right Angle 2 position 0.079" (2.00mm)</field>
+        <field name="_Value_">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Connectors" part="TSW-112-07-G-S">
+      <docs>http://suddendocs.samtec.com/catalog_english/tsw_th.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TSW-112-07-G-S</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Connectors:SAMTEC-TSW-112-07-X-S</field>
+        <field name="Cost QTY: 1">1.29000</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Samtec Inc.</field>
+        <field name="MFR#">TSW-112-07-G-S</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">SAM1029-12-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">11.8mm</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">ThroughHole</field>
+        <field name="Pin Count #">12</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Pin Header</field>
+        <field name="Voltage">*</field>
+        <field name="Package">*</field>
+        <field name="Description">Connector Header Through Hole 12 position 0.100" (2.54mm)</field>
+        <field name="_Value_">TSW-112-07-G-S</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Connectors" part="TSW-116-07-L-S">
+      <docs>http://suddendocs.samtec.com/catalog_english/tsw_th.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TSW-116-07-L-S</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Connectors:SAMTEC-TSW-116-07-X-S</field>
+        <field name="Cost QTY: 1">1.38000</field>
+        <field name="Cost QTY: 1000">0.76500</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.67830</field>
+        <field name="Cost QTY: 10000">0.66300</field>
+        <field name="MFR">Samtec Inc.</field>
+        <field name="MFR#">TSW-116-07-L-S</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">TSW-116-07-L-S-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">11.8mm</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">ThroughHole</field>
+        <field name="Pin Count #">16</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Pin Header</field>
+        <field name="Voltage">*</field>
+        <field name="Package">*</field>
+        <field name="Description">Connector Header Through Hole 16 position 0.100" (2.54mm)</field>
+        <field name="_Value_">TSW-116-07-L-S</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Diodes" part="LTST-C194TBKT">
+      <docs>http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LTST-C194TBKT</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Diodes:LED0603</field>
+        <field name="Cost QTY: 1">0.42000</field>
+        <field name="Cost QTY: 1000">0.07797</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.06102</field>
+        <field name="Cost QTY: 10000">0.05424</field>
+        <field name="MFR">Lite-On Inc.</field>
+        <field name="MFR#">LTST-C194TBKT</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">160-1837-2-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.45mm</field>
+        <field name="Date Created">3/1/2020</field>
+        <field name="Date Modified">3/1/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Blue LED Colorless</field>
+        <field name="Voltage">3.3V</field>
+        <field name="Package">0603</field>
+        <field name="Description">Blue 468nm LED Indication - Discrete 3.3V 0603 (1608 Metric)</field>
+        <field name="_Value_">Blue LED</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Diodes" part="MBR0540T1G">
+      <docs>https://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0540T1G</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Diodes:D_SOD-123</field>
+        <field name="Cost QTY: 1">0.37000</field>
+        <field name="Cost QTY: 1000">0.07191</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MFR#">MBR0540T1G</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">MBR0540T1GOSTR-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.17mm</field>
+        <field name="Date Created">7/31/2020</field>
+        <field name="Date Modified">7/31/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">TVS Diode</field>
+        <field name="Voltage">40V</field>
+        <field name="Package">SOD-123</field>
+        <field name="Description">Diode Schottky 40V 500mA Surface Mount SOD-123</field>
+        <field name="_Value_">MBR0540T1G</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Holes_Fasteners" part="2.54mm_PLT_Hole">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">2.54mm_PLT_Hole</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole</field>
+        <field name="Cost QTY: 1">*</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">*</field>
+        <field name="MFR#">*</field>
+        <field name="Vendor">*</field>
+        <field name="Vendor #">*</field>
+        <field name="Designer">*</field>
+        <field name="Height">*</field>
+        <field name="Date Created">*</field>
+        <field name="Date Modified">*</field>
+        <field name="Lead-Free ?">*</field>
+        <field name="RoHS Levels">*</field>
+        <field name="Mounting">*</field>
+        <field name="Pin Count #">*</field>
+        <field name="Status">*</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">*</field>
+        <field name="Voltage">*</field>
+        <field name="Package">*</field>
+        <field name="_Value_">2.54mm Hole</field>
+        <field name="Management_ID">*</field>
+        <field name="Description">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-ICs" part="MCP73831T-2ACI_OT">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831T-2ACI_OT</field>
+        <field name="Footprint">AVR-KiCAD-Lib-ICs:SOT-23-5</field>
+        <field name="Cost QTY: 1">0.59</field>
+        <field name="Cost QTY: 1000">*</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MFR#">MCP73831T-2ACI/OT</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor #">579-MCP73831T-2ACIOT</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.3mm</field>
+        <field name="Date Created">2/20/2021</field>
+        <field name="Date Modified">2/20/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">5</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">LiPo charger</field>
+        <field name="Voltage">*</field>
+        <field name="Package">SOT23-5</field>
+        <field name="Description">Charger IC Lithium Ion/Polymer SOT-23-5</field>
+        <field name="_Value_">MCP73831T-2ACI/OT</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="input"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VBAT" type="BiDi"/>
+        <pin num="4" name="VDD" type="BiDi"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-ICs" part="TLV75533PDBVR">
+      <docs>https://www.ti.com/lit/ds/symlink/tlv755p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1613655963783</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75533PDBVR</field>
+        <field name="Footprint">AVR-KiCAD-Lib-ICs:TLV75533PDBVR</field>
+        <field name="Cost QTY: 1">0.42000</field>
+        <field name="Cost QTY: 1000">0.14787</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MFR#">TLV75533PDBVR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">296-50411-2-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">*</field>
+        <field name="Date Created">2/18/2021</field>
+        <field name="Date Modified">2/18/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">5</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">LDO</field>
+        <field name="Voltage">3.3V 500MA</field>
+        <field name="Package">*</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output  500mA SOT-23-5</field>
+        <field name="_Value_">TLV75533PDBVR</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-ICs" part="USBLC6-2P6">
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2P6</field>
+        <field name="Footprint">AVR-KiCAD-Lib-ICs:SOT50P160X60-6N</field>
+        <field name="Cost QTY: 1">0.57000</field>
+        <field name="Cost QTY: 1000">0.24640</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MFR#">USBLC6-2P6</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">497-5026-2-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">*</field>
+        <field name="Date Created">2/13/2021</field>
+        <field name="Date Modified">2/13/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">6</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">ESD Supressor USB</field>
+        <field name="Voltage">17V Clamping</field>
+        <field name="Package">SOT666</field>
+        <field name="Description">17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666</field>
+        <field name="_Value_">USBLC6-2P6</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="I/O2" type="BiDi"/>
+        <pin num="4" name="I/O2" type="BiDi"/>
+        <pin num="5" name="VBUS" type="power_in"/>
+        <pin num="6" name="I/O1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Inductors" part="MI0603K300R-10">
+      <docs>https://www.laird.com/sites/default/files/2018-11/Catalog_EMI%20FILTERING%20RF%200717.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MI0603K300R-10</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Inductors:MI0603K300R-10</field>
+        <field name="Cost QTY: 1">0.16000</field>
+        <field name="Cost QTY: 1000">0.04313</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Laird-Signal Integrity Products</field>
+        <field name="MFR#">MI0603K300R-10</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">240-2373-1-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.95mm</field>
+        <field name="Date Created">6/16/2020</field>
+        <field name="Date Modified">6/16/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Ferrite Bead</field>
+        <field name="Voltage">*</field>
+        <field name="Package">0603</field>
+        <field name="_Value_">MI0603K300R-10</field>
+        <field name="Description">30 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1.5A 90mOhm</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Mech-Switches" part="B3U-1000P">
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">B3U-1000P</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Mech-Switches:B3U-1000P</field>
+        <field name="Cost QTY: 1">0.98000</field>
+        <field name="Cost QTY: 1000">0.59822</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Omron Electronics Inc-EMC Div</field>
+        <field name="MFR#">B3U-1000P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">SW1020CT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.6mm</field>
+        <field name="Date Created">6/15/2020</field>
+        <field name="Date Modified">6/15/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">Switch</field>
+        <field name="Voltage">*</field>
+        <field name="Package">Proprietary</field>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="_Value_">B3U-1000P</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Modules" part="STM32WB5MMGH6TR">
+      <docs>https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">STM32WB5MMGH6TR</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Modules:STM32WB5MMGH6TR</field>
+        <field name="Cost QTY: 1">12.98000</field>
+        <field name="Cost QTY: 1000">9.01250</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MFR#">STM32WB5MMGH6TR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">497-STM32WB5MMGH6TR-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.382mm</field>
+        <field name="Date Created">2/8/2021</field>
+        <field name="Date Modified">2/8/2021</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">86</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">RF and MCU Integrated Module</field>
+        <field name="Voltage">1.71-3.6V</field>
+        <field name="Package">*</field>
+        <field name="Description">802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.4GHz Integrated, Chip Surface Mount</field>
+        <field name="_Value_">STM32WB5MMGH6TR</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="BiDi"/>
+        <pin num="2" name="PA1" type="BiDi"/>
+        <pin num="3" name="PA0" type="BiDi"/>
+        <pin num="4" name="VREF+" type="power_in"/>
+        <pin num="5" name="VSS" type="passive"/>
+        <pin num="6" name="VDDA" type="passive"/>
+        <pin num="7" name="PC3" type="BiDi"/>
+        <pin num="8" name="PC2" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="NRST" type="BiDi"/>
+        <pin num="11" name="PB9" type="BiDi"/>
+        <pin num="12" name="PC0" type="BiDi"/>
+        <pin num="13" name="PH3-BOOT0" type="BiDi"/>
+        <pin num="14" name="PB8" type="BiDi"/>
+        <pin num="15" name="VBAT" type="power_in"/>
+        <pin num="16" name="VSSSPMPS" type="power_in"/>
+        <pin num="17" name="VDDSMPS" type="power_in"/>
+        <pin num="18" name="PB7" type="BiDi"/>
+        <pin num="19" name="PB5" type="BiDi"/>
+        <pin num="20" name="PB4" type="BiDi"/>
+        <pin num="21" name="PB3" type="BiDi"/>
+        <pin num="22" name="PC10" type="BiDi"/>
+        <pin num="23" name="PC11" type="BiDi"/>
+        <pin num="24" name="PC12" type="BiDi"/>
+        <pin num="25" name="PA13" type="BiDi"/>
+        <pin num="26" name="PA14" type="BiDi"/>
+        <pin num="27" name="PA15" type="BiDi"/>
+        <pin num="28" name="PA10" type="BiDi"/>
+        <pin num="29" name="PA12" type="BiDi"/>
+        <pin num="30" name="PA11" type="BiDi"/>
+        <pin num="31" name="VSS" type="passive"/>
+        <pin num="32" name="VDDUSB" type="BiDi"/>
+        <pin num="33" name="PD0" type="BiDi"/>
+        <pin num="34" name="PD1" type="BiDi"/>
+        <pin num="35" name="PB13" type="BiDi"/>
+        <pin num="36" name="PC6" type="BiDi"/>
+        <pin num="37" name="PB14" type="BiDi"/>
+        <pin num="38" name="PB15" type="BiDi"/>
+        <pin num="39" name="PB6" type="BiDi"/>
+        <pin num="40" name="PC13" type="BiDi"/>
+        <pin num="41" name="PB12" type="BiDi"/>
+        <pin num="42" name="PE4" type="BiDi"/>
+        <pin num="45" name="PC5" type="BiDi"/>
+        <pin num="46" name="PB11" type="BiDi"/>
+        <pin num="47" name="PB10" type="BiDi"/>
+        <pin num="48" name="PB2" type="BiDi"/>
+        <pin num="49" name="PC4" type="BiDi"/>
+        <pin num="50" name="PA8" type="BiDi"/>
+        <pin num="51" name="PA9" type="BiDi"/>
+        <pin num="52" name="PA7" type="BiDi"/>
+        <pin num="53" name="PA6" type="BiDi"/>
+        <pin num="54" name="PA5" type="BiDi"/>
+        <pin num="55" name="PA4" type="BiDi"/>
+        <pin num="56" name="PA3" type="BiDi"/>
+        <pin num="57" name="VSS" type="passive"/>
+        <pin num="58" name="ANT_IN" type="input"/>
+        <pin num="59" name="RF_OUT" type="output"/>
+        <pin num="60" name="VSS" type="passive"/>
+        <pin num="61" name="PH0" type="BiDi"/>
+        <pin num="62" name="PH1" type="BiDi"/>
+        <pin num="63" name="PD14" type="BiDi"/>
+        <pin num="64" name="PE1" type="BiDi"/>
+        <pin num="65" name="PD13" type="BiDi"/>
+        <pin num="66" name="PD12" type="BiDi"/>
+        <pin num="67" name="PD7" type="BiDi"/>
+        <pin num="68" name="PD2" type="BiDi"/>
+        <pin num="69" name="PC9" type="BiDi"/>
+        <pin num="70" name="PD3" type="BiDi"/>
+        <pin num="71" name="PC7" type="BiDi"/>
+        <pin num="72" name="PE3" type="BiDi"/>
+        <pin num="73" name="PD4" type="BiDi"/>
+        <pin num="74" name="PD9" type="BiDi"/>
+        <pin num="75" name="PD8" type="BiDi"/>
+        <pin num="76" name="PD15" type="BiDi"/>
+        <pin num="77" name="PD10" type="BiDi"/>
+        <pin num="78" name="PE2" type="BiDi"/>
+        <pin num="79" name="PE0" type="BiDi"/>
+        <pin num="80" name="PD5" type="BiDi"/>
+        <pin num="81" name="PD6" type="BiDi"/>
+        <pin num="82" name="PD11" type="BiDi"/>
+        <pin num="83" name="PC8" type="BiDi"/>
+        <pin num="84" name="VSS" type="passive"/>
+        <pin num="85" name="ANT_NC" type="NotConnected"/>
+        <pin num="86" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-0710KL">
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0710KL</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Resistors:R0402</field>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-10.0KLRCT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Date Created">12/11/2019</field>
+        <field name="Date Modified">12/11/2019</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Thick FIlm Resistor</field>
+        <field name="Voltage">*</field>
+        <field name="Package">0402</field>
+        <field name="_Value_">10K</field>
+        <field name="Management_ID">*</field>
+        <field name="Description">10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Resistors" part="RC0402FR-072KL">
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-072KL</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Resistors:R0402</field>
+        <field name="Cost QTY: 1">0.10000</field>
+        <field name="Cost QTY: 1000">0.00289</field>
+        <field name="Cost QTY: 2500">0.00251</field>
+        <field name="Cost QTY: 5000">0.00207</field>
+        <field name="Cost QTY: 10000">0.00163</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0402FR-072KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-2KLRCT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.4mm</field>
+        <field name="Date Created">7/6/2020</field>
+        <field name="Date Modified">7/6/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">Resistor</field>
+        <field name="Voltage">*</field>
+        <field name="Package">0402</field>
+        <field name="_Value_">2K</field>
+        <field name="Description">2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Resistors" part="RC0603FR-07100KL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-07100KL</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Resistors:R0603</field>
+        <field name="Cost QTY: 1">0.10</field>
+        <field name="Cost QTY: 1000">0.00476</field>
+        <field name="Cost QTY: 2500">0.00418</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0603FR-07100KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-100KHRCT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Date Created">4/23/2019</field>
+        <field name="Date Modified">4/23/2019</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">SMT Chip Resistor</field>
+        <field name="Voltage">*</field>
+        <field name="Package">0603</field>
+        <field name="_Value_">100K</field>
+        <field name="Management_ID">*</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Resistors" part="RC0603FR-07470RL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-07470RL</field>
+        <field name="Footprint">AVR-KiCAD-Lib-Resistors:R0603</field>
+        <field name="Cost QTY: 1">0.100</field>
+        <field name="Cost QTY: 1000">0.00476</field>
+        <field name="Cost QTY: 2500">0.00418</field>
+        <field name="Cost QTY: 5000">*</field>
+        <field name="Cost QTY: 10000">*</field>
+        <field name="MFR">Yageo</field>
+        <field name="MFR#">RC0603FR-07470RL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">311-470HRCT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">0.55mm</field>
+        <field name="Date Created">4/23/2019</field>
+        <field name="Date Modified">4/23/2019</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">2</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">1%</field>
+        <field name="Type">SMT Chip Resistor</field>
+        <field name="Voltage">*</field>
+        <field name="Package">0603</field>
+        <field name="_Value_">470r</field>
+        <field name="Management_ID">*</field>
+        <field name="Description">RES SMD 470 OHM 1% 1/10W 0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVR-KiCAD-Lib-Transistors" part="DMP3125L-7">
+      <docs>https://www.diodes.com/assets/Datasheets/DMP3125L.pdf</docs>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">DMP3125L-7</field>
+        <field name="Footprint">growbox-KiCAD-Transistors:SOT-23</field>
+        <field name="Cost QTY: 1">0.46000</field>
+        <field name="Cost QTY: 1000">0.09759</field>
+        <field name="Cost QTY: 2500">*</field>
+        <field name="Cost QTY: 5000">0.08324</field>
+        <field name="Cost QTY: 10000">0.07624</field>
+        <field name="MFR">Diodes Incorporated</field>
+        <field name="MFR#">DMP3125L-7</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor #">DMP3125L-7DICT-ND</field>
+        <field name="Designer">AVR</field>
+        <field name="Height">1.10mm</field>
+        <field name="Date Created">3/1/2020</field>
+        <field name="Date Modified">3/1/2020</field>
+        <field name="Lead-Free ?">Yes</field>
+        <field name="RoHS Levels">1</field>
+        <field name="Mounting">SMT</field>
+        <field name="Pin Count #">3</field>
+        <field name="Status">Active</field>
+        <field name="Tolerance">*</field>
+        <field name="Type">P-Channel MOSFET</field>
+        <field name="Voltage">20V</field>
+        <field name="Package">SOT23</field>
+        <field name="Description">P-Channel 30V 2.5A (Ta) 650mW (Ta) Surface Mount SOT-23</field>
+        <field name="_Value_">DMP3125L-7</field>
+        <field name="Management_ID">*</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AVR-KiCAD-Lib-Capacitors">
+      <uri>C:/Users/adam/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/AVR-KiCAD-Lib-Capacitors.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Connectors">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Connectors.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Diodes">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Diodes.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Holes_Fasteners">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Holes_Fasteners.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-ICs">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-ICs.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Inductors">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Inductors.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Mech-Switches">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Mech-Switches.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Modules">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Modules.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Resistors">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Resistors.lib</uri>
+    </library>
+    <library logical="AVR-KiCAD-Lib-Transistors">
+      <uri>C:\Users\adam\Documents\GitHub\AVR-KiCAD-Lib\Lib\AVR-KiCAD-Lib/AVR-KiCAD-Lib-Transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="4" name="/NRST">
+      <node ref="T4" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="M1" pin="10"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="T1" pin="9"/>
+      <node ref="T5" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="T1" pin="3"/>
+      <node ref="T3" pin="9"/>
+      <node ref="M1" pin="59"/>
+      <node ref="T3" pin="3"/>
+      <node ref="M1" pin="58"/>
+      <node ref="T1" pin="5"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="M1" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="T4" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="M1" pin="84"/>
+      <node ref="M1" pin="86"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="M1" pin="16"/>
+      <node ref="M1" pin="31"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="M1" pin="60"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="M1" pin="57"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="/PB12">
+      <node ref="M1" pin="41"/>
+      <node ref="T4" pin="15"/>
+    </net>
+    <net code="7" name="/PC13">
+      <node ref="T4" pin="14"/>
+      <node ref="M1" pin="40"/>
+    </net>
+    <net code="8" name="/PE4">
+      <node ref="T4" pin="16"/>
+      <node ref="M1" pin="42"/>
+    </net>
+    <net code="9" name="/PB6">
+      <node ref="T4" pin="13"/>
+      <node ref="M1" pin="39"/>
+    </net>
+    <net code="10" name="/PB15">
+      <node ref="M1" pin="38"/>
+      <node ref="T4" pin="12"/>
+    </net>
+    <net code="11" name="/PB10">
+      <node ref="M1" pin="47"/>
+    </net>
+    <net code="12" name="/VBAT">
+      <node ref="T2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="T5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="13" name="/PB11">
+      <node ref="M1" pin="46"/>
+    </net>
+    <net code="14" name="/PB14">
+      <node ref="T4" pin="11"/>
+      <node ref="M1" pin="37"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="D1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="16" name="VBUS">
+      <node ref="Q1" pin="1"/>
+      <node ref="T2" pin="3"/>
+      <node ref="T3" pin="11"/>
+      <node ref="D3" pin="1"/>
+      <node ref="T3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="/PD7">
+      <node ref="M1" pin="67"/>
+      <node ref="T4" pin="5"/>
+    </net>
+    <net code="18" name="/PD2">
+      <node ref="T4" pin="6"/>
+      <node ref="M1" pin="68"/>
+    </net>
+    <net code="19" name="/PC9">
+      <node ref="M1" pin="69"/>
+      <node ref="T4" pin="7"/>
+    </net>
+    <net code="20" name="/PB7">
+      <node ref="M1" pin="18"/>
+      <node ref="T2" pin="6"/>
+    </net>
+    <net code="21" name="/PB4">
+      <node ref="M1" pin="20"/>
+      <node ref="T2" pin="4"/>
+    </net>
+    <net code="22" name="/PB5">
+      <node ref="T2" pin="5"/>
+      <node ref="M1" pin="19"/>
+    </net>
+    <net code="23" name="/PD12">
+      <node ref="M1" pin="66"/>
+      <node ref="T2" pin="7"/>
+    </net>
+    <net code="24" name="/PD13">
+      <node ref="M1" pin="65"/>
+      <node ref="T2" pin="8"/>
+    </net>
+    <net code="25" name="/PC6">
+      <node ref="M1" pin="36"/>
+      <node ref="T4" pin="10"/>
+    </net>
+    <net code="26" name="/PB13">
+      <node ref="T4" pin="9"/>
+      <node ref="M1" pin="35"/>
+    </net>
+    <net code="27" name="/PD1">
+      <node ref="M1" pin="34"/>
+      <node ref="T4" pin="8"/>
+    </net>
+    <net code="28" name="/ENABLE">
+      <node ref="U2" pin="3"/>
+      <node ref="T2" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="30" name="/PH1">
+      <node ref="T2" pin="11"/>
+      <node ref="M1" pin="62"/>
+    </net>
+    <net code="31" name="/PE1">
+      <node ref="M1" pin="64"/>
+      <node ref="T2" pin="9"/>
+    </net>
+    <net code="32" name="/PD14">
+      <node ref="M1" pin="63"/>
+      <node ref="T2" pin="10"/>
+    </net>
+    <net code="33" name="/PH0">
+      <node ref="T2" pin="12"/>
+      <node ref="M1" pin="61"/>
+    </net>
+    <net code="34" name="/USB_D-">
+      <node ref="M1" pin="30"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="35" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="36" name="/USB_D+">
+      <node ref="M1" pin="29"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="37" name="Net-(M1-Pad85)">
+      <node ref="M1" pin="85"/>
+    </net>
+    <net code="38" name="/BOOT0">
+      <node ref="M1" pin="13"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="39" name="Net-(M1-Pad11)">
+      <node ref="M1" pin="11"/>
+    </net>
+    <net code="40" name="Net-(M1-Pad12)">
+      <node ref="M1" pin="12"/>
+    </net>
+    <net code="41" name="Net-(M1-Pad14)">
+      <node ref="M1" pin="14"/>
+    </net>
+    <net code="42" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(T4-Pad3)">
+      <node ref="T4" pin="3"/>
+    </net>
+    <net code="44" name="Net-(M1-Pad49)">
+      <node ref="M1" pin="49"/>
+    </net>
+    <net code="45" name="Net-(M1-Pad45)">
+      <node ref="M1" pin="45"/>
+    </net>
+    <net code="46" name="Net-(M1-Pad50)">
+      <node ref="M1" pin="50"/>
+    </net>
+    <net code="47" name="Net-(M1-Pad51)">
+      <node ref="M1" pin="51"/>
+    </net>
+    <net code="48" name="Net-(M1-Pad52)">
+      <node ref="M1" pin="52"/>
+    </net>
+    <net code="49" name="Net-(M1-Pad53)">
+      <node ref="M1" pin="53"/>
+    </net>
+    <net code="50" name="Net-(M1-Pad54)">
+      <node ref="M1" pin="54"/>
+    </net>
+    <net code="51" name="Net-(M1-Pad55)">
+      <node ref="M1" pin="55"/>
+    </net>
+    <net code="52" name="Net-(M1-Pad56)">
+      <node ref="M1" pin="56"/>
+    </net>
+    <net code="53" name="Net-(M1-Pad22)">
+      <node ref="M1" pin="22"/>
+    </net>
+    <net code="54" name="Net-(M1-Pad23)">
+      <node ref="M1" pin="23"/>
+    </net>
+    <net code="55" name="Net-(M1-Pad24)">
+      <node ref="M1" pin="24"/>
+    </net>
+    <net code="56" name="Net-(M1-Pad28)">
+      <node ref="M1" pin="28"/>
+    </net>
+    <net code="57" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="58" name="Net-(M1-Pad33)">
+      <node ref="M1" pin="33"/>
+    </net>
+    <net code="59" name="Net-(T3-Pad5)">
+      <node ref="T3" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="T3" pin="8"/>
+    </net>
+    <net code="60" name="Net-(T3-Pad6)">
+      <node ref="U1" pin="1"/>
+      <node ref="T3" pin="7"/>
+      <node ref="T3" pin="6"/>
+    </net>
+    <net code="61" name="Net-(L1-Pad2)">
+      <node ref="T3" pin="S4"/>
+      <node ref="T3" pin="S5"/>
+      <node ref="T3" pin="S3"/>
+      <node ref="T3" pin="S6"/>
+      <node ref="L1" pin="2"/>
+      <node ref="T3" pin="1"/>
+      <node ref="T3" pin="S2"/>
+      <node ref="T3" pin="S1"/>
+      <node ref="T3" pin="12"/>
+    </net>
+    <net code="62" name="Net-(T3-Pad10)">
+      <node ref="T3" pin="10"/>
+    </net>
+    <net code="63" name="Net-(T3-Pad4)">
+      <node ref="T3" pin="4"/>
+    </net>
+    <net code="64" name="/JTAG_JTDO">
+      <node ref="T1" pin="6"/>
+      <node ref="M1" pin="48"/>
+    </net>
+    <net code="65" name="/JTAG_JTDI">
+      <node ref="T1" pin="8"/>
+      <node ref="M1" pin="27"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="66" name="/JTAG_SWCLK">
+      <node ref="R3" pin="1"/>
+      <node ref="M1" pin="26"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="67" name="/JTAG_SWDIO">
+      <node ref="T1" pin="2"/>
+      <node ref="M1" pin="25"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="68" name="/JTAG_NJTRST">
+      <node ref="R4" pin="2"/>
+      <node ref="M1" pin="21"/>
+      <node ref="T1" pin="10"/>
+    </net>
+    <net code="69" name="Net-(T1-Pad7)">
+      <node ref="T1" pin="7"/>
+    </net>
+    <net code="70" name="/STAT">
+      <node ref="U3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="71" name="/LED">
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="72" name="/PROG">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="73" name="Net-(M1-Pad77)">
+      <node ref="M1" pin="77"/>
+    </net>
+    <net code="74" name="Net-(M1-Pad78)">
+      <node ref="M1" pin="78"/>
+    </net>
+    <net code="75" name="Net-(M1-Pad79)">
+      <node ref="M1" pin="79"/>
+    </net>
+    <net code="76" name="Net-(M1-Pad8)">
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="77" name="Net-(M1-Pad80)">
+      <node ref="M1" pin="80"/>
+    </net>
+    <net code="78" name="Net-(M1-Pad81)">
+      <node ref="M1" pin="81"/>
+    </net>
+    <net code="79" name="Net-(M1-Pad82)">
+      <node ref="M1" pin="82"/>
+    </net>
+    <net code="80" name="Net-(M1-Pad83)">
+      <node ref="M1" pin="83"/>
+    </net>
+    <net code="81" name="Net-(M1-Pad76)">
+      <node ref="M1" pin="76"/>
+    </net>
+    <net code="82" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="83" name="+3V3">
+      <node ref="M1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="M1" pin="6"/>
+      <node ref="M1" pin="32"/>
+      <node ref="M1" pin="17"/>
+      <node ref="M1" pin="15"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="T1" pin="1"/>
+      <node ref="T4" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="84" name="Net-(M1-Pad7)">
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="85" name="Net-(M1-Pad70)">
+      <node ref="M1" pin="70"/>
+    </net>
+    <net code="86" name="Net-(M1-Pad71)">
+      <node ref="M1" pin="71"/>
+    </net>
+    <net code="87" name="Net-(M1-Pad72)">
+      <node ref="M1" pin="72"/>
+    </net>
+    <net code="88" name="Net-(M1-Pad73)">
+      <node ref="M1" pin="73"/>
+    </net>
+    <net code="89" name="Net-(M1-Pad74)">
+      <node ref="M1" pin="74"/>
+    </net>
+    <net code="90" name="Net-(M1-Pad75)">
+      <node ref="M1" pin="75"/>
+    </net>
+  </nets>
+</export>

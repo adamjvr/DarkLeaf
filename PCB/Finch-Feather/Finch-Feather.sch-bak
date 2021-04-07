@@ -1571,42 +1571,6 @@ F 28 "*" H 12800 3750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole H3
-U 1 1 608C5DF9
-P 10400 900
-F 0 "H3" H 10628 946 50  0000 L CNN
-F 1 "2.54mm_PLT_Hole" H 10450 1100 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Holes_Fasteners:2.54mm_PLT_Hole" H 10400 900 50  0001 C CNN
-F 3 "" H 10400 900 50  0001 C CNN
-F 4 "*" H 10500 1150 50  0001 C CNN "Cost QTY: 1"
-F 5 "*" H 10600 1250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 10700 1350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 10800 1450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 10900 1550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "*" H 11000 1650 50  0001 C CNN "MFR"
-F 10 "*" H 11100 1750 50  0001 C CNN "MFR#"
-F 11 "*" H 11200 1850 50  0001 C CNN "Vendor"
-F 12 "*" H 11300 1950 50  0001 C CNN "Vendor #"
-F 13 "*" H 11400 2050 50  0001 C CNN "Designer"
-F 14 "*" H 11500 2150 50  0001 C CNN "Height"
-F 15 "*" H 12600 3250 50  0001 C CNN "Date Created"
-F 16 "*" H 11600 2250 50  0001 C CNN "Date Modified"
-F 17 "*" H 11700 2350 50  0001 C CNN "Lead-Free ?"
-F 18 "*" H 11800 2450 50  0001 C CNN "RoHS Levels"
-F 19 "*" H 11900 2550 50  0001 C CNN "Mounting"
-F 20 "*" H 12000 2650 50  0001 C CNN "Pin Count #"
-F 21 "*" H 12100 2750 50  0001 C CNN "Status"
-F 22 "*" H 12200 2850 50  0001 C CNN "Tolerance"
-F 23 "*" H 12300 2950 50  0001 C CNN "Type"
-F 24 "*" H 12400 3050 50  0001 C CNN "Voltage"
-F 25 "*" H 12500 3200 50  0001 C CNN "Package"
-F 26 "2.54mm Hole" H 10628 855 50  0000 L CNN "_Value_"
-F 27 "*" H 12800 3500 50  0001 C CNN "Management_ID"
-F 28 "*" H 12800 3500 50  0001 C CNN "Description"
-	1    10400 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0126
 U 1 1 6090DBAB
 P 6250 2000
