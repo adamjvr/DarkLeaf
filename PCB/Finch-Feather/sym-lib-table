@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name STM32WB5MMGH6TR)(type Legacy)(uri ${KIPRJMOD}/STM32WB5MMGH6TR.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "STM32WB5MMGH6TR")(type "Legacy")(uri "${KIPRJMOD}/STM32WB5MMGH6TR.lib")(options "")(descr ""))
+  (lib (name "Finch-Feather-rescue")(type "KiCad")(uri "${KIPRJMOD}/Finch-Feather-rescue.kicad_sym")(options "")(descr ""))
 )
