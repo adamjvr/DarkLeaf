@@ -9,4 +9,6 @@ Quick Specs:
 - LiPO powered w/ onboard 3.3V LDO Regulator
 - Can be powered directly by 3.3V when breadboarded
 
+![ISO Render](img/DarkLeaf_2G_ISO.jpg)
+
 Released Under CERN Open Hardware License Version 2
